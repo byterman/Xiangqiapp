@@ -40,17 +40,17 @@
                     android:orientation="horizontal"
                     tools:ignore="MissingConstraints">
                     <ImageView
-                        android:id="@+id/pjdeath1"
+                        android:id="@+id/deathred0"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/pjdeath2"
+                        android:id="@+id/deathred1"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/pjdeath3"
+                        android:id="@+id/deathred2"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
@@ -62,17 +62,17 @@
                     android:orientation="horizontal"
                     tools:ignore="MissingConstraints">
                     <ImageView
-                        android:id="@+id/pjdeath4"
+                        android:id="@+id/deathred3"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/pjdeath5"
+                        android:id="@+id/deathred4"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/pjdeath6"
+                        android:id="@+id/deathred5"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
@@ -83,7 +83,7 @@
                     android:orientation="horizontal"
                     tools:ignore="MissingConstraints">
                     <ImageView
-                        android:id="@+id/pjdeath7"
+                        android:id="@+id/deathred6"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
@@ -200,54 +200,63 @@
                     android:id="@+id/b1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="10" />
 
                 <ImageView
                     android:id="@+id/b2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="11" />
 
                 <ImageView
                     android:id="@+id/b3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="12" />
 
                 <ImageView
                     android:id="@+id/b4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="13" />
 
                 <ImageView
                     android:id="@+id/b5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="14" />
 
                 <ImageView
                     android:id="@+id/b6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="15" />
 
                 <ImageView
                     android:id="@+id/b7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="16" />
 
                 <ImageView
                     android:id="@+id/b8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="17" />
 
                 <ImageView
                     android:id="@+id/b9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="18" />
             </LinearLayout>
 
@@ -264,54 +273,63 @@
                     android:id="@+id/c1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="20" />
 
                 <ImageView
                     android:id="@+id/c2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="21" />
 
                 <ImageView
                     android:id="@+id/c3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="22" />
 
                 <ImageView
                     android:id="@+id/c4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="23" />
 
                 <ImageView
                     android:id="@+id/c5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="24" />
 
                 <ImageView
                     android:id="@+id/c6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="25" />
 
                 <ImageView
                     android:id="@+id/c7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="26" />
 
                 <ImageView
                     android:id="@+id/c8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="27" />
 
                 <ImageView
                     android:id="@+id/c9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="28" />
             </LinearLayout>
 
@@ -328,54 +346,63 @@
                     android:id="@+id/d1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="30" />
 
                 <ImageView
                     android:id="@+id/d2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="31" />
 
                 <ImageView
                     android:id="@+id/d3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="32" />
 
                 <ImageView
                     android:id="@+id/d4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="33" />
 
                 <ImageView
                     android:id="@+id/d5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="34" />
 
                 <ImageView
                     android:id="@+id/d6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="35" />
 
                 <ImageView
                     android:id="@+id/d7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="36" />
 
                 <ImageView
                     android:id="@+id/d8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="37" />
 
                 <ImageView
                     android:id="@+id/d9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="38" />
             </LinearLayout>
 
@@ -392,54 +419,63 @@
                     android:id="@+id/e1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="40" />
 
                 <ImageView
                     android:id="@+id/e2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="41" />
 
                 <ImageView
                     android:id="@+id/e3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="42" />
 
                 <ImageView
                     android:id="@+id/e4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="43" />
 
                 <ImageView
                     android:id="@+id/e5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="44" />
 
                 <ImageView
                     android:id="@+id/e6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="45" />
 
                 <ImageView
                     android:id="@+id/e7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="46" />
 
                 <ImageView
                     android:id="@+id/e8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="47" />
 
                 <ImageView
                     android:id="@+id/e9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="48" />
             </LinearLayout>
 
@@ -465,54 +501,63 @@
                     android:id="@+id/f1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="50" />
 
                 <ImageView
                     android:id="@+id/f2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="51" />
 
                 <ImageView
                     android:id="@+id/f3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="52" />
 
                 <ImageView
                     android:id="@+id/f4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="53" />
 
                 <ImageView
                     android:id="@+id/f5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="54" />
 
                 <ImageView
                     android:id="@+id/f6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="55" />
 
                 <ImageView
                     android:id="@+id/f7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="56" />
 
                 <ImageView
                     android:id="@+id/f8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="57" />
 
                 <ImageView
                     android:id="@+id/f9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="58" />
             </LinearLayout>
 
@@ -529,54 +574,63 @@
                     android:id="@+id/g1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="60" />
 
                 <ImageView
                     android:id="@+id/g2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="61" />
 
                 <ImageView
                     android:id="@+id/g3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="62" />
 
                 <ImageView
                     android:id="@+id/g4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="63" />
 
                 <ImageView
                     android:id="@+id/g5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="64" />
 
                 <ImageView
                     android:id="@+id/g6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="65" />
 
                 <ImageView
                     android:id="@+id/g7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="66" />
 
                 <ImageView
                     android:id="@+id/g8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="67" />
 
                 <ImageView
                     android:id="@+id/g9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="68" />
             </LinearLayout>
 
@@ -593,54 +647,63 @@
                     android:id="@+id/h1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="70" />
 
                 <ImageView
                     android:id="@+id/h2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="71" />
 
                 <ImageView
                     android:id="@+id/h3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="72" />
 
                 <ImageView
                     android:id="@+id/h4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="73" />
 
                 <ImageView
                     android:id="@+id/h5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="74" />
 
                 <ImageView
                     android:id="@+id/h6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="75" />
 
                 <ImageView
                     android:id="@+id/h7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="76" />
 
                 <ImageView
                     android:id="@+id/h8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="77" />
 
                 <ImageView
                     android:id="@+id/h9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="78" />
             </LinearLayout>
 
@@ -657,54 +720,63 @@
                     android:id="@+id/i1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="80" />
 
                 <ImageView
                     android:id="@+id/i2"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="81" />
 
                 <ImageView
                     android:id="@+id/i3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="82" />
 
                 <ImageView
                     android:id="@+id/i4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="83" />
 
                 <ImageView
                     android:id="@+id/i5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="84" />
 
                 <ImageView
                     android:id="@+id/i6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="85" />
 
                 <ImageView
                     android:id="@+id/i7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="86" />
 
                 <ImageView
                     android:id="@+id/i8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="87" />
 
                 <ImageView
                     android:id="@+id/i9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="88" />
             </LinearLayout>
 
@@ -721,54 +793,63 @@
                     android:id="@+id/j1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="90" />
 
                 <ImageView
                     android:id="@+id/j2"
                     android:layout_width="43dp"
                     android:layout_height="match_parent"
+                    android:onClick="clickPeca"
                     android:tag="91" />
 
                 <ImageView
                     android:id="@+id/j3"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="92" />
 
                 <ImageView
                     android:id="@+id/j4"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="93" />
 
                 <ImageView
                     android:id="@+id/j5"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="94" />
 
                 <ImageView
                     android:id="@+id/j6"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="95" />
 
                 <ImageView
                     android:id="@+id/j7"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="96" />
 
                 <ImageView
                     android:id="@+id/j8"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="97" />
 
                 <ImageView
                     android:id="@+id/j9"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:onClick="clickPeca"
                     android:tag="98" />
             </LinearLayout>
 
@@ -810,17 +891,17 @@
                     android:orientation="horizontal"
                     tools:ignore="MissingConstraints">
                     <ImageView
-                        android:id="@+id/death1"
+                        android:id="@+id/deathblack0"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/death2"
+                        android:id="@+id/deathblack1"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/death3"
+                        android:id="@+id/deathblack2"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
@@ -832,17 +913,17 @@
                     android:orientation="horizontal"
                     tools:ignore="MissingConstraints">
                     <ImageView
-                        android:id="@+id/death4"
+                        android:id="@+id/deathblack3"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/death5"
+                        android:id="@+id/deathblack4"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
                     <ImageView
-                        android:id="@+id/death6"
+                        android:id="@+id/deathblack5"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />
@@ -855,7 +936,7 @@
                     tools:ignore="MissingConstraints">
 
                     <ImageView
-                        android:id="@+id/death7"
+                        android:id="@+id/deathblack6"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:tag="43" />

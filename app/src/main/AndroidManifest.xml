@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".chess"></activity>
+        <activity android:name=".tutorial"></activity>
+        <activity android:name=".info" />
+        <activity android:name=".chess" />
         <activity android:name=".vs" />
         <activity android:name=".MainActivity">
             <intent-filter>

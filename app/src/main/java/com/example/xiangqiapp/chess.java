@@ -20,12 +20,35 @@ public class chess extends AppCompatActivity {
 
     ImageView tablero[][] = new ImageView[10][9];
 
+    ImageView zonamuertaroja[] = new ImageView[7];
+    ImageView zonamuertablack[] = new ImageView[7];
+    
     Pieza tableroPiezas[][] = new Pieza[10][9];
+
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chess);
+
+        //zona muerta roja
+        zonamuertaroja[0] = findViewById(R.id.deathred0);
+        zonamuertaroja[1] = findViewById(R.id.deathred1);
+        zonamuertaroja[2] = findViewById(R.id.deathred2);
+        zonamuertaroja[3] = findViewById(R.id.deathred3);
+        zonamuertaroja[4] = findViewById(R.id.deathred4);
+        zonamuertaroja[5] = findViewById(R.id.deathred5);
+        zonamuertaroja[6] = findViewById(R.id.deathred6);
+
+        //zona muerta negra
+        zonamuertablack[0] = findViewById(R.id.deathblack0);
+        zonamuertablack[1] = findViewById(R.id.deathblack1);
+        zonamuertablack[2] = findViewById(R.id.deathblack2);
+        zonamuertablack[3] = findViewById(R.id.deathblack3);
+        zonamuertablack[4] = findViewById(R.id.deathblack4);
+        zonamuertablack[5] = findViewById(R.id.deathblack5);
+        zonamuertablack[6] = findViewById(R.id.deathblack6);
 
         // Tablero visual
         tablero[0][0] = findViewById(R.id.a1);
@@ -210,11 +233,21 @@ public class chess extends AppCompatActivity {
         int row = Character.getNumericValue(posPieza.charAt(0));
         int col = Character.getNumericValue(posPieza.charAt(1));
 
-        Log.i("proves", tableroPiezas[row][col].name);
+        //Log.i("proves", tableroPiezas[row][col].name);
 
-        tableroPiezas[row][col].printGhost(row, col, tableroPiezas, tableroPiezas[row][col].color);
+        if (tableroPiezas[row][col] != null){
+            if (tableroPiezas[row][col].name != "G"){
+                tableroPiezas[row][col].printGhost(row, col, tableroPiezas, tableroPiezas[row][col].color);
 
-        printTaulell();
+                printTaulell();
+            }else if (tableroPiezas[row][col].name == "G"){
+
+
+
+            }
+        }else{
+
+        }
 
     }
 }

@@ -21,10 +21,34 @@ public class MainActivity extends AppCompatActivity {
                 goTojugar();
             }
         });
+
+        final Button btn_info = findViewById(R.id.btn_info);
+        btn_info.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToinfo();
+            }
+        });
+
+        final Button btn_tutorial = findViewById(R.id.btn_tutorial);
+        btn_tutorial.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goTotutorial();
+            }
+        });
     }
 
     public void goTojugar(){
         Intent intentMenu = new Intent (this, vs.class);
+        startActivity(intentMenu);
+    }
+
+    public void goToinfo(){
+        Intent intentMenu = new Intent (this, info.class);
+        startActivity(intentMenu);
+    }
+
+    public void goTotutorial(){
+        Intent intentMenu = new Intent (this, tutorial.class);
         startActivity(intentMenu);
     }
 }
