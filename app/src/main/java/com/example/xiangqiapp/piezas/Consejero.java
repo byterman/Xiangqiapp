@@ -12,8 +12,32 @@ public class Consejero extends Pieza{
     @Override
     public void printGhost(int row, int col, Pieza[][] tableroPiezas, boolean color) {
 
-        tableroPiezas[row+2][col+1] = new Ghost(true);
+        if ( color ==true ){
+            if (row>=5){
+                checkAndPrint(tableroPiezas, row+1, col);
+
+                tableroPiezas[row][col-1] = new Ghost(true);
+                tableroPiezas[row][col+1] = new Ghost(true);
+            }else{
+                tableroPiezas[row+1][col] = new Ghost(true);
+            }
+
+        }else{
+            if (row<=4){
+                tableroPiezas[row-1][col] = new Ghost(true);
+                tableroPiezas[row][col-1] = new Ghost(true);
+                tableroPiezas[row][col+1] = new Ghost(true);
+            }else{
+                tableroPiezas[row-1][col] = new Ghost(true);
+            }
+        }
 
     }
 
+    public void checkAndPrint(Pieza[][] tableroPiezas, int row, int col){
+        if(tableroPiezas[row][col]==null){
+            tableroPiezas[row][col] = new Ghost(true);
+        }
+
+    }
 }
